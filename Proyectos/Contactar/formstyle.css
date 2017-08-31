@@ -1,0 +1,68 @@
+
+
+    body{
+
+      background: #761D15;
+      background-size: 100vw 100vh;
+      margin:0;
+    }
+
+    form{
+    width: 450px;
+    margin: auto;
+    background: #A43722;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 0px;
+    font-family: 'Cabin', sans-serif;
+    }
+
+    h2{
+    	color: #fff;
+    	text-align: center;
+    	margin:0;
+    	font-size: 15px;
+    	margin-bottom: 20px;
+    }
+
+
+
+   input, textarea{
+
+   	width:100%;
+   	margin-bottom: 20px;
+   	padding: 7px;
+   	box-sizing: border-box;
+   	font-size:17px;
+    border: none;
+   }
+
+   textarea {
+    
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+   #boton{
+    	background: #761D15;
+    	color: #fff;
+    	padding: 20px;
+    }
+
+    #boton:hover{
+      cursor:pointer;
+    }
+
+  .imagenesproyectos{
+
+
+  margin-left: 350px;
+  margin-top:75px;
+}
+@media (max-width: 450px) {
+  form{
+     width: 100%;
+  }
+}

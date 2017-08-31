@@ -1,0 +1,565 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+</style>
+
+/*boton menu*/
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing :border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+body{
+	background: #761D15;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.btn-menu {
+	padding: 20px;
+	display: none;
+	background: #561512;
+	color:#fff;
+}
+
+.btn-menu .icono{
+ 
+ float:right;
+}
+
+.contenedor-menu{
+
+	width: 20%;
+	min-width: 300px;
+	margin: 50px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu{
+	width: 100%;
+}
+
+.contenedor-menu ul{
+	list-style: none;
+}
+
+.contenedor-menu .menu li a{
+	color: #fff;
+	display: block;
+	padding: 15px 20px;
+	background: #A43722;
+}
+
+.contenedor-menu .menu li a:hover {
+	background:#761D15 ;
+	color:#fff;
+}
+
+.contenedor-menu .menu .icono{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izquierda{
+	float:left;
+	margin-right: 10px;
+
+}
+.contenedor-menu .menu .icono.derecha{
+	float:right;
+	margin-left: 10px;
+
+}
+
+.contenedor-menu .menu ul{
+	display: none;
+}
+
+.contenedor-menu .menu ul li a {
+
+	background:#C94635;
+	color:white;
+}
+
+.contenedor-menu .menu .activado > a {
+	background: #1a95d5;
+	color:white;
+}
+
+ @media screen and (min-width: 800px) {
+
+	body { 
+           
+           margin: px;
+	       padding-right: 50px;
+           padding-left:0;
+	      
+	 }
+    
+      .contenedor-menu{
+	 	margin: 0px;
+	 	width: 100%;
+        
+	 	position: fixed;
+	 	top: 0;
+	 	z-index: 1000;
+	   }
+	   .btn-menu{
+	   	display:block;
+      font-family: 'Roboto Condensed', sans-serif;
+       position: center;
+       height: 50px;
+
+
+
+       }
+
+       .contenedor-menu .menu {
+      	display: none;
+      }
+       
+      .logo-pagina{
+      	margin-top: 65px;
+      	margin-left:580px;
+     }
+
+
+  .boton {
+        border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #A43722; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform:; /*capitalización texto*/
+        font-family: 'Cabin', sans-serif; /*tipografía texto*/
+        border-radius: px; /*bordes redondos*/
+        display:  block;
+        width: 10%; 
+        margin-left: 555px;
+        font-size: 16px;
+        text-align: center;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .footer{
+     
+       margin-top:70px;
+       margin-left: 600px;
+    }
+
+ .botonb {
+        border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #A43722; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform:; /*capitalización texto*/
+        font-family: 'Cabin', sans-serif; /*tipografía texto*/
+        border-radius: px; /*bordes redondos*/
+        display: block;
+        width: 10%; 
+        margin-left: 555px;
+        margin-top:;
+        font-size: 16px;
+        text-align: center;
+        list-style: none;
+    }
+
+    .indiceproyecto{
+
+     position: center;
+     border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+     padding: 5px; /*espacio alrededor texto*/
+     background-color: ; /*color botón*/
+     color: #ffffff; /*color texto*/
+     text-decoration: none; /*decoración texto*/
+     text-transform:; /*capitalización texto*/
+     font-family: 'Cabin', sans-serif; /*tipografía texto*/
+     border-radius: px; /*bordes redondos*/
+     display:block;
+     width: 70%; 
+     float:center;
+     margin-left: 510px;
+     font-size: 15px;
+     text-align: left;
+     margin-bottom: 10px;
+     margin-top:0 px
+
+}
+
+    .imagenesproyectos{
+
+
+	margin-left:650px;
+	margin-top:100px;
+    margin-bottom: 0px;
+
+}
+
+
+
+   .image{
+
+
+	margin-left: 570px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+
+}
+
+	.imagebig  {
+    
+    margin-left: 520px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+
+}
+
+	  
+    .imagebig2  {
+    
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-bottom:10px; 
+    margin-right: 500px;
+    position: center;
+
+} 
+
+
+
+    .titulo-proyectos{
+
+     font-family: '', sans-serif;
+     margin-left: 400px;
+     font-size: 30px;
+     margin-bottom: 20px;
+     color: #fff;
+     line-height: 40px;
+     margin-top: 10%;
+
+    }
+
+    .parrafo-proyectos{
+     font-family: 'Cabin', sans-serif;
+     margin-left: 40px;
+     font-size: 20px;
+     margin-left: 400px;
+     margin-right:300px;
+     margin-bottom: 20px;
+     line-height: 25px;
+     color: #fff;
+
+    }
+ 
+ }
+
+
+
+  @media screen and (max-width: 768px) {
+
+   
+  	body { 
+           padding-top: 80px;
+	 }
+    
+
+    
+       .contenedor-menu{
+	 	margin: 0;
+	 	width: 100%;
+	 	position: fixed;
+	 	top: 0;
+	 	z-index: 1000;
+	   }
+	   .btn-menu{
+	   	display:block;
+        height: 50px;
+       }
+
+      .contenedor-menu .menu {
+      	display: none;
+      }
+       
+      .logo-pagina{
+      	margin-top: 250px;
+      	margin-left:335px;
+     }
+
+     .boton {
+        border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #A43722; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform:; /*capitalización texto*/
+        font-family: 'Cabin', sans-serif; /*tipografía texto*/
+        border-radius: px; /*bordes redondos*/
+        display: block;
+        width: 37%; 
+        margin-left: 240px;
+        font-size: 16px;
+        text-align: center;
+        list-style: none;
+    }
+
+    .footer{
+     
+       margin-top:300px;
+       margin-left: 350px;
+    }
+
+    .indiceproyecto{
+
+     position: center;
+     border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+     padding: 5px; /*espacio alrededor texto*/
+     background-color: ; /*color botón*/
+     color: #ffffff; /*color texto*/
+     text-decoration: none; /*decoración texto*/
+     text-transform:; /*capitalización texto*/
+     font-family: 'Cabin', sans-serif; /*tipografía texto*/
+     border-radius: px; /*bordes redondos*/
+     display:block;
+     width: 70%; 
+     float:center;
+     margin-left: 45px;
+     font-size: 15px;
+     text-align: left;
+     margin-bottom: 10px;
+     margin-top:0 px
+
+}
+
+    .imagenesproyectos{
+
+
+	margin-left:330px;
+	margin-top:75px;
+
+}
+
+
+
+   .image{
+
+
+	margin-left: 250px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+
+}
+
+	.imagebig  {
+
+     margin-left: 200px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+}
+
+	.imagebig2  {
+    
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom:10px; 
+    margin-right: 500px;
+    position: center;
+
+} 
+
+
+    .titulo-proyectos{
+
+     font-family: '', sans-serif;
+     margin-left: 40px;
+     font-size: 40px;
+     margin-bottom: 20px;
+     color: #fff;
+     line-height: 40px;
+
+    }
+
+    .parrafo-proyectos{
+     font-family: 'Cabin', sans-serif;
+     margin-left: 40px;
+     font-size: 30px;
+     margin-right:50px;
+     margin-bottom: 20px;
+     line-height: 30px;
+     color: #fff;
+
+    }
+ 
+ }
+
+
+@media screen and (max-width: 450px) {
+	
+	body { 
+           padding-top: 80px;
+	 }
+    
+
+    
+
+    
+   
+
+	 .contenedor-menu{
+	 	margin: 0;
+	 	width: 100%;
+	 	position: fixed;
+	 	top: 0;
+	 	z-index: 1000;
+	   }
+	   .btn-menu{
+	   	display:block;
+        height: 55px;
+        margin-top: 0;
+       }
+
+      .contenedor-menu .menu {
+      	display: none;
+      }
+       
+      .logo-pagina{
+      	margin-top: 0px;
+      	margin-left:102px;
+     }
+
+     .boton {
+        border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #A43722; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform:; /*capitalización texto*/
+        font-family: 'Cabin', sans-serif; /*tipografía texto*/
+        border-radius: px; /*bordes redondos*/
+        display: block;
+        width: 37%; 
+        margin-left: 85px;
+        font-size: 16px;
+        text-align: center;
+        list-style: none;
+    }
+
+    .footer{
+
+       margin-top:200px;
+       margin-left: 125px;
+    }
+
+    .indiceproyecto{
+
+     position: center;
+     border: 1px solid #A43200722 ; /*anchura, estilo y color borde*/
+     padding: 5px; /*espacio alrededor texto*/
+     background-color: ; /*color botón*/
+     color: #ffffff; /*color texto*/
+     text-decoration: none; /*decoración texto*/
+     text-transform:; /*capitalización texto*/
+     font-family: 'Cabin', sans-serif; /*tipografía texto*/
+     border-radius: px; /*bordes redondos*/
+     display:block;
+     width: 70%; 
+     float:center;
+     margin-left: 45px;
+     font-size: 15px;
+     text-align: left;
+     margin-bottom: 10px;
+     margin-top:0 px
+
+}
+
+    .imagenesproyectos{
+
+
+	margin-left: 120px;
+	margin-top:75px;
+}
+
+
+
+   .image{
+
+
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+}
+
+	.imagebig{
+     margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom:10px; 
+	margin-right: 10px;
+	position: center;
+}
+
+.imagebig2  {
+    
+    margin-left: -60px;
+    margin-top: 10px;
+    margin-bottom:10px; 
+    margin-right: 500px;
+    position: center;
+
+} 
+	
+
+
+    .titulo-proyectos{
+
+     font-family: '', sans-serif;
+     font-size: 25px;
+     margin-left: 15px;
+     margin-bottom: 20px;
+     color: #fff;
+
+    }
+
+    .parrafo-proyectos{
+     font-family: 'Roboto', sans-serif;
+     margin-left: 18px;
+     font-size: 18px;
+     margin-bottom: 20px;
+     color: #fff;
+     line-height: 20px;
+
+    }
+
+
+}
+
+/* fin de boton menú*/
+
+
+
+ 
